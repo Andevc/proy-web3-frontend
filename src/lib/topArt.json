@@ -1,0 +1,38 @@
+[
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718341184/art_rvefjv.webp",
+        "autor": "MauMaster",
+        "price": "235"
+    },
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718428399/trending08_hatxbh.png",
+        "autor": "MauMaster",
+        "price": "302"
+    },
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718428399/trending02_czfbdg.png",
+        "autor": "Satoshi",
+        "price": "141"
+    },
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718428400/trending10_hgpq4g.png",
+        "autor": "MarcoExplo",
+        "price": "225"
+    },
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718428400/trending00_yykvvn.png",
+        "autor": "MarcoExplo",
+        "price": "326"
+    },
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718428400/trending07_czsmev.png",
+        "autor": "Satoshi",
+        "price": "550"
+    },    
+    {
+        "image": "https://res.cloudinary.com/dn2zvlabb/image/upload/v1718427149/Cyber%20Warrior.jpg",
+        "autor": "Andev",
+        "price": "150"
+    }
+
+]

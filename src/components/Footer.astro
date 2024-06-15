@@ -1,0 +1,118 @@
+---
+import {Image} from 'astro:assets';
+import logo from '@assets/images/logo.webp'
+---
+<footer class=" w-full pt-8 px-8 text-white" transition:animate="none" >
+    <hr>
+    <section class="w-[90%] flex justify-between items-center my-[1em] mx-auto">
+        
+        <section class="w-full  flex flex-row justify-around items-start">
+            <section>
+                <ul>
+                    <li class="footer-tittle">
+                        Explorar
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/explore">Explorar</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="#subasta">Subasta de Arte</a>
+                    </li>
+                    
+                    <li class="footer-content py-1">
+                        <a href="#topCreator">Top Creadores</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="#topArt">Arte Top</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="footer-tittle">
+                        Otros
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/login">Login</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/about">Acerca de Nosotros</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/pricing">Precios</a>
+                    </li>
+                </ul>
+            </section>    
+            <section>
+                <ul>
+                    <li class="footer-tittle">
+                        Contactanos
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/">support@artopia.com</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/">+123 456 789 00</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/">Self support</a>
+                    </li>
+                    <li class="footer-content py-1">
+                        <a href="/">Customer support</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    <br>
+    <hr>
+    <p class="py-5 text-center font-bold tracking-[.3em]">Proyecto Web-III  -  2024 &copy;</p>
+</footer>
+
+<style>
+    .footer-tittle{
+        font-weight: bold;
+        letter-spacing: .2em;
+        padding: 1rem 0 1.5rem 0;
+    }
+    .footer-content{
+        color: gray;
+        padding: 0.25rem 0;
+    }
+    .footer-content:hover{
+        cursor: pointer;
+        color: white;
+    }
+
+    .social-networks{
+      height: 44px;
+      stroke: gray;
+      transition: .4s ease;
+    }
+
+    .social-networks:hover{
+        cursor: pointer;
+        transform: scale(1.3);
+        stroke: url(#gradient);
+
+    }
+
+    .logo-footer{        
+        width: 100px;
+        height: 100px;
+    }
+
+    .facebook:hover{
+        stroke: url(#fb-gradient);
+    }
+    .instagram:hover{
+        stroke: url(#ig-gradient);
+    }
+    .twitter:hover{
+        stroke: url(#tw-gradient);
+    }
+    .discord:hover{
+        stroke: url(#dc-gradient);
+    }
+
+</style>

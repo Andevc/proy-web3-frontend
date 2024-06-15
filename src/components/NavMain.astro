@@ -1,0 +1,63 @@
+---
+import Button from "@components/Button.astro";
+
+
+---
+
+<nav class="navbar-main nav-effect" transition:animate="none">
+    
+        
+        <ul class="navbar-list">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about">Nosotros</a></li>
+        </ul>
+
+        <Button text="Log In" />
+
+    
+</nav>
+
+<style>
+    .navbar-main {
+        margin: 0 auto;
+        width: 100%;
+        padding: 1em 6em;
+        position: fixed;
+        z-index: 1000;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        backdrop-filter: blur(.5em);
+    }
+    
+    .navbar-list {
+        width: 40%;
+        display: flex;
+        gap: 3em;
+        place-items: center;
+    }
+
+    li {
+        width: 100%;
+        height: 90%;
+    }
+    
+    li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition: color .5s;
+    }
+    li a:hover {
+        
+        
+        color: var(--color-primary);
+    }
+</style>

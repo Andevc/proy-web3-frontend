@@ -1,0 +1,108 @@
+---
+
+import Layout from '@layouts/Layout.astro';
+
+import TrendSlider from "@components/TrendTopSlider.jsx"
+import "@styles/IndexStyle.css"
+
+import WalletIcon from "@assets/icons/wallet.astro";
+import AddIcon from "@assets/icons/add.astro";
+import SellIcon from "@assets/icons/sell.astro";
+
+
+---
+
+<Layout title="Welcome">
+	
+	<main>
+		<section class="container-main">
+			<section class="z-10 w-3/4 m-auto p-[1em]">
+				<h1>
+					Libera tu creatividad con <span class="text-gradient">Visual Pantheon</span>
+				</h1>
+				<br>
+				<p>
+					Tu puerta de entrada a la elaboración, exhibición y
+					comercialización de Imagenes de coleccion.
+				</p>
+			</section>
+		</section>
+
+		<section class="container-main-content">
+			
+			<section class="container-benefits">
+				<section class="container-benefit-content">
+					<h1>
+						Expande tu collecion con <span class="text-gradient">Facilidad</span>
+					</h1>
+					<p>
+						¿Tienes imagenes coleccionables? Dales vida en nuestra plataforma sin
+						esfuerzo, solo debes cargar y mostrar sus joyas digitales
+						existentes a tu manera.
+					</p>
+				</section>
+ 
+				<section class="container-benefit-image">
+					<video src="https://res.cloudinary.com/dn2zvlabb/video/upload/v1718328756/vid_main_gt5rc3.mp4" loop autoplay muted></video>
+				</section>
+
+			</section>
+			
+			<section class="w-3/4 m-auto">
+				<h1 class="w-full txt-tittle text-center" id="topArt">
+					Tendencias <span class="text-gradient">Principales</span>
+				</h1><br>
+				<section>
+					<TrendSlider client:load />
+				</section>
+				
+			</section>
+
+			<section class="w-3/4 my-16 mx-auto flex flex-col items-center">
+				<h1 class="txt-tittle">
+					Crear <span class="text-gradient">y</span> Vender
+				</h1>
+				<section class="market-container market-info">
+
+
+					<section class="market-info-card">
+						<section class="market-info-card-icon">
+
+							<AddIcon size="45" stroke="#fff" />
+						</section>
+						<br>
+						<section class="text-content-info-card">
+							<h3>Añade a tu coleccion</h3>
+							<br>
+							<p>
+								Carga tu obra, añade un título y una descripción,
+								un precio y se añadira automaticamente a tu 
+								coleccion de imagenes.
+							</p>
+						</section>
+					</section >
+
+					<section class="market-info-card">
+						<section class="market-info-card-icon">
+
+							<SellIcon size="45" stroke="#fff" />
+						</section>
+						<br>
+						<section class="text-content-info-card">
+							<h3>Vende tus Imagenes</h3>
+							<br>
+							<p>
+								Elige entre subastas, listados a precio fijo y listados a 
+								precio decreciente. 
+								Tú decides cómo quieres vender tus imagenes de coleccion, 
+								¡y nosotros te ayudamos a hacerlo!
+							</p>
+						</section>
+					</section>
+
+				</section>
+			</section>
+		</section>
+	</main>
+</Layout>
+
