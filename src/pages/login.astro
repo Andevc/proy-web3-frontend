@@ -2,6 +2,7 @@
 import LogIn from "@layouts/LogInLayout.astro";
 import SignIn from "@components/SignIn.astro";
 import SignUp from "@components/SignUp.astro";
+import AuthLogin from '@components/login.jsx';
 ---
 
 <LogIn title="Log In">
@@ -11,7 +12,7 @@ import SignUp from "@components/SignUp.astro";
                 <SignUp />
             </section>
             <section class="sign-in">
-                <SignIn />
+                <AuthLogin client:load />
             </section>
             <section class="overlay-container">
                 <section class="overlay">
